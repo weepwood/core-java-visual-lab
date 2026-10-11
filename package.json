@@ -1,0 +1,14 @@
+{
+  "name": "core-java-visual-lab",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Java 核心技术交互式学习实验室",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && node --check src/content.js && node --check src/labs.js && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
